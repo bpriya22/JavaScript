@@ -81,13 +81,32 @@
 //TYPE CONVERSION AND TYPE COERCION
 
 //1] TYPE CONVERSION
-let num=String(6)       //Explicit conversion
-console.log(num, typeof num);
+// let num=String(6)       //Explicit conversion
+// console.log(num, typeof num);
 
 //2] TYPE COERCION
 
 
 
+// RELATIONAL OPERATORS in JavaSript
 
+// console.log(7>5); //boolean value
+// data=3>1
+// console.log(data); // boolean value
+
+// let x="Pen"
+// let y="Book"
+// console.log(x>y);  //true-->beacuse P>B , b comes first p comes after b(ascii value)
+// let x="Pen"
+// let y="Pencil"
+// console.log(x>y);
+
+// let x="2"
+// let y=1
+// console.log(x>y);  //true--> it converts 2 string to number.
+
+let x="2"
+let y=1
+console.log(x===y)// checks value as well as datatype.in js always use this.
 
 
