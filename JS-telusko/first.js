@@ -105,8 +105,28 @@
 // let y=1
 // console.log(x>y);  //true--> it converts 2 string to number.
 
-let x="2"
-let y=1
-console.log(x===y)// checks value as well as datatype.in js always use this.
+// let x="2"
+// let y=1
+// console.log(x===y)// checks value as well as datatype.in js always use this.
 
 
+// TEMPLATE LITERAL OR INTER POLLATION
+
+// const num1=4
+// const num2=3
+// const ans=num1+num2
+// console.log(`the sum of ${num1} and ${num2}is ${ans}`); //using interpollation is easy than concating num1 and num2
+
+// console.log("my name is \n Priyanka"); // to make Priyanka come in next line we use /n
+// console.log(`my name is
+// priyaaanka`);
+
+
+
+//OBJECTS IN JAVASCRIPT
+
+// 1] OBJECT LITERAL
+let alien={
+
+}
+console.log(typeof alien);
