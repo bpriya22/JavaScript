@@ -84,8 +84,11 @@
 // let num=String(6)       //Explicit conversion
 // console.log(num, typeof num);
 
-//2] TYPE COERCION
+//2] TYPE COERCION   //IMPLICIT CONVERSION
 
+// var a=12
+// var b='3'
+// console.log(a-b);
 
 
 // RELATIONAL OPERATORS in JavaSript
@@ -126,7 +129,7 @@
 //OBJECTS IN JAVASCRIPT
 
 // 1] OBJECT LITERAL
-let alien={
+// let alien={
 
-}
-console.log(typeof alien);
+// }
+// console.log(typeof alien);
